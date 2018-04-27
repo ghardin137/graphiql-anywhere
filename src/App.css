@@ -1,0 +1,30 @@
+.App {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #999999;
+}
+
+header span {
+  margin-right: 20px;
+}
+
+header input {
+  flex-grow: 1;
+  padding: 5px 12px;
+}
+
+.flex-grow {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.graphiql-container { flex-grow: 1; }
